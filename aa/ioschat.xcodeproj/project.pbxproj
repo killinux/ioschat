@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D059DE271A2CC274006688E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE261A2CC274006688E0 /* main.m */; };
+		D059DE2A1A2CC274006688E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE291A2CC274006688E0 /* AppDelegate.m */; };
+		D059DE2D1A2CC274006688E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE2C1A2CC274006688E0 /* ViewController.m */; };
+		D059DE301A2CC274006688E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D059DE2E1A2CC274006688E0 /* Main.storyboard */; };
+		D059DE321A2CC274006688E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D059DE311A2CC274006688E0 /* Images.xcassets */; };
+		D059DE351A2CC274006688E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D059DE331A2CC274006688E0 /* LaunchScreen.xib */; };
+		D059DE411A2CC274006688E0 /* ioschatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE401A2CC274006688E0 /* ioschatTests.m */; };
+		D059DE521A2CC2DA006688E0 /* WCRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE4D1A2CC2DA006688E0 /* WCRegisterViewController.m */; };
+		D059DE531A2CC2DA006688E0 /* WCRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D059DE4E1A2CC2DA006688E0 /* WCRegisterViewController.xib */; };
+		D059DE541A2CC2DA006688E0 /* WCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE501A2CC2DA006688E0 /* WCLoginViewController.m */; };
+		D059DE551A2CC2DA006688E0 /* WCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D059DE511A2CC2DA006688E0 /* WCLoginViewController.xib */; };
+		D059DE601A2CC393006688E0 /* WCFindFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE581A2CC393006688E0 /* WCFindFriendsViewController.m */; };
+		D059DE611A2CC393006688E0 /* WCFindFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D059DE591A2CC393006688E0 /* WCFindFriendsViewController.xib */; };
+		D059DE621A2CC393006688E0 /* WCContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE5B1A2CC393006688E0 /* WCContactsViewController.m */; };
+		D059DE631A2CC393006688E0 /* WCContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D059DE5C1A2CC393006688E0 /* WCContactsViewController.xib */; };
+		D059DE641A2CC393006688E0 /* WCUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE5E1A2CC393006688E0 /* WCUserProfileViewController.m */; };
+		D059DE651A2CC393006688E0 /* WCUserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D059DE5F1A2CC393006688E0 /* WCUserProfileViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D059DE3B1A2CC274006688E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D059DE191A2CC274006688E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D059DE201A2CC274006688E0;
+			remoteInfo = ioschat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D059DE211A2CC274006688E0 /* ioschat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ioschat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D059DE251A2CC274006688E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D059DE261A2CC274006688E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D059DE281A2CC274006688E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D059DE291A2CC274006688E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D059DE2B1A2CC274006688E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D059DE2C1A2CC274006688E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D059DE2F1A2CC274006688E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D059DE311A2CC274006688E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D059DE341A2CC274006688E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D059DE3A1A2CC274006688E0 /* ioschatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ioschatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D059DE3F1A2CC274006688E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D059DE401A2CC274006688E0 /* ioschatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ioschatTests.m; sourceTree = "<group>"; };
+		D059DE4C1A2CC2DA006688E0 /* WCRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCRegisterViewController.h; sourceTree = "<group>"; };
+		D059DE4D1A2CC2DA006688E0 /* WCRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCRegisterViewController.m; sourceTree = "<group>"; };
+		D059DE4E1A2CC2DA006688E0 /* WCRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCRegisterViewController.xib; sourceTree = "<group>"; };
+		D059DE4F1A2CC2DA006688E0 /* WCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLoginViewController.h; sourceTree = "<group>"; };
+		D059DE501A2CC2DA006688E0 /* WCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLoginViewController.m; sourceTree = "<group>"; };
+		D059DE511A2CC2DA006688E0 /* WCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCLoginViewController.xib; sourceTree = "<group>"; };
+		D059DE571A2CC393006688E0 /* WCFindFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCFindFriendsViewController.h; sourceTree = "<group>"; };
+		D059DE581A2CC393006688E0 /* WCFindFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCFindFriendsViewController.m; sourceTree = "<group>"; };
+		D059DE591A2CC393006688E0 /* WCFindFriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCFindFriendsViewController.xib; sourceTree = "<group>"; };
+		D059DE5A1A2CC393006688E0 /* WCContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCContactsViewController.h; sourceTree = "<group>"; };
+		D059DE5B1A2CC393006688E0 /* WCContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCContactsViewController.m; sourceTree = "<group>"; };
+		D059DE5C1A2CC393006688E0 /* WCContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCContactsViewController.xib; sourceTree = "<group>"; };
+		D059DE5D1A2CC393006688E0 /* WCUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCUserProfileViewController.h; sourceTree = "<group>"; };
+		D059DE5E1A2CC393006688E0 /* WCUserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCUserProfileViewController.m; sourceTree = "<group>"; };
+		D059DE5F1A2CC393006688E0 /* WCUserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCUserProfileViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D059DE1E1A2CC274006688E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D059DE371A2CC274006688E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D059DE181A2CC274006688E0 = {
+			isa = PBXGroup;
+			children = (
+				D059DE231A2CC274006688E0 /* ioschat */,
+				D059DE3D1A2CC274006688E0 /* ioschatTests */,
+				D059DE221A2CC274006688E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D059DE221A2CC274006688E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D059DE211A2CC274006688E0 /* ioschat.app */,
+				D059DE3A1A2CC274006688E0 /* ioschatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D059DE231A2CC274006688E0 /* ioschat */ = {
+			isa = PBXGroup;
+			children = (
+				D059DE561A2CC379006688E0 /* frends */,
+				D059DE4B1A2CC2C0006688E0 /* login_reg */,
+				D059DE281A2CC274006688E0 /* AppDelegate.h */,
+				D059DE291A2CC274006688E0 /* AppDelegate.m */,
+				D059DE2B1A2CC274006688E0 /* ViewController.h */,
+				D059DE2C1A2CC274006688E0 /* ViewController.m */,
+				D059DE2E1A2CC274006688E0 /* Main.storyboard */,
+				D059DE311A2CC274006688E0 /* Images.xcassets */,
+				D059DE331A2CC274006688E0 /* LaunchScreen.xib */,
+				D059DE241A2CC274006688E0 /* Supporting Files */,
+			);
+			path = ioschat;
+			sourceTree = "<group>";
+		};
+		D059DE241A2CC274006688E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D059DE251A2CC274006688E0 /* Info.plist */,
+				D059DE261A2CC274006688E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D059DE3D1A2CC274006688E0 /* ioschatTests */ = {
+			isa = PBXGroup;
+			children = (
+				D059DE401A2CC274006688E0 /* ioschatTests.m */,
+				D059DE3E1A2CC274006688E0 /* Supporting Files */,
+			);
+			path = ioschatTests;
+			sourceTree = "<group>";
+		};
+		D059DE3E1A2CC274006688E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D059DE3F1A2CC274006688E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D059DE4B1A2CC2C0006688E0 /* login_reg */ = {
+			isa = PBXGroup;
+			children = (
+				D059DE4C1A2CC2DA006688E0 /* WCRegisterViewController.h */,
+				D059DE4D1A2CC2DA006688E0 /* WCRegisterViewController.m */,
+				D059DE4E1A2CC2DA006688E0 /* WCRegisterViewController.xib */,
+				D059DE4F1A2CC2DA006688E0 /* WCLoginViewController.h */,
+				D059DE501A2CC2DA006688E0 /* WCLoginViewController.m */,
+				D059DE511A2CC2DA006688E0 /* WCLoginViewController.xib */,
+			);
+			name = login_reg;
+			sourceTree = "<group>";
+		};
+		D059DE561A2CC379006688E0 /* frends */ = {
+			isa = PBXGroup;
+			children = (
+				D059DE571A2CC393006688E0 /* WCFindFriendsViewController.h */,
+				D059DE581A2CC393006688E0 /* WCFindFriendsViewController.m */,
+				D059DE591A2CC393006688E0 /* WCFindFriendsViewController.xib */,
+				D059DE5A1A2CC393006688E0 /* WCContactsViewController.h */,
+				D059DE5B1A2CC393006688E0 /* WCContactsViewController.m */,
+				D059DE5C1A2CC393006688E0 /* WCContactsViewController.xib */,
+				D059DE5D1A2CC393006688E0 /* WCUserProfileViewController.h */,
+				D059DE5E1A2CC393006688E0 /* WCUserProfileViewController.m */,
+				D059DE5F1A2CC393006688E0 /* WCUserProfileViewController.xib */,
+			);
+			name = frends;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D059DE201A2CC274006688E0 /* ioschat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D059DE441A2CC274006688E0 /* Build configuration list for PBXNativeTarget "ioschat" */;
+			buildPhases = (
+				D059DE1D1A2CC274006688E0 /* Sources */,
+				D059DE1E1A2CC274006688E0 /* Frameworks */,
+				D059DE1F1A2CC274006688E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ioschat;
+			productName = ioschat;
+			productReference = D059DE211A2CC274006688E0 /* ioschat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D059DE391A2CC274006688E0 /* ioschatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D059DE471A2CC274006688E0 /* Build configuration list for PBXNativeTarget "ioschatTests" */;
+			buildPhases = (
+				D059DE361A2CC274006688E0 /* Sources */,
+				D059DE371A2CC274006688E0 /* Frameworks */,
+				D059DE381A2CC274006688E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D059DE3C1A2CC274006688E0 /* PBXTargetDependency */,
+			);
+			name = ioschatTests;
+			productName = ioschatTests;
+			productReference = D059DE3A1A2CC274006688E0 /* ioschatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D059DE191A2CC274006688E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = killinux;
+				TargetAttributes = {
+					D059DE201A2CC274006688E0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D059DE391A2CC274006688E0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D059DE201A2CC274006688E0;
+					};
+				};
+			};
+			buildConfigurationList = D059DE1C1A2CC274006688E0 /* Build configuration list for PBXProject "ioschat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D059DE181A2CC274006688E0;
+			productRefGroup = D059DE221A2CC274006688E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D059DE201A2CC274006688E0 /* ioschat */,
+				D059DE391A2CC274006688E0 /* ioschatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D059DE1F1A2CC274006688E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D059DE301A2CC274006688E0 /* Main.storyboard in Resources */,
+				D059DE651A2CC393006688E0 /* WCUserProfileViewController.xib in Resources */,
+				D059DE551A2CC2DA006688E0 /* WCLoginViewController.xib in Resources */,
+				D059DE351A2CC274006688E0 /* LaunchScreen.xib in Resources */,
+				D059DE611A2CC393006688E0 /* WCFindFriendsViewController.xib in Resources */,
+				D059DE631A2CC393006688E0 /* WCContactsViewController.xib in Resources */,
+				D059DE321A2CC274006688E0 /* Images.xcassets in Resources */,
+				D059DE531A2CC2DA006688E0 /* WCRegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D059DE381A2CC274006688E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D059DE1D1A2CC274006688E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D059DE2D1A2CC274006688E0 /* ViewController.m in Sources */,
+				D059DE641A2CC393006688E0 /* WCUserProfileViewController.m in Sources */,
+				D059DE2A1A2CC274006688E0 /* AppDelegate.m in Sources */,
+				D059DE271A2CC274006688E0 /* main.m in Sources */,
+				D059DE601A2CC393006688E0 /* WCFindFriendsViewController.m in Sources */,
+				D059DE521A2CC2DA006688E0 /* WCRegisterViewController.m in Sources */,
+				D059DE541A2CC2DA006688E0 /* WCLoginViewController.m in Sources */,
+				D059DE621A2CC393006688E0 /* WCContactsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D059DE361A2CC274006688E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D059DE411A2CC274006688E0 /* ioschatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D059DE3C1A2CC274006688E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D059DE201A2CC274006688E0 /* ioschat */;
+			targetProxy = D059DE3B1A2CC274006688E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D059DE2E1A2CC274006688E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D059DE2F1A2CC274006688E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D059DE331A2CC274006688E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D059DE341A2CC274006688E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D059DE421A2CC274006688E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D059DE431A2CC274006688E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D059DE451A2CC274006688E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ioschat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D059DE461A2CC274006688E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ioschat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D059DE481A2CC274006688E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ioschatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ioschat.app/ioschat";
+			};
+			name = Debug;
+		};
+		D059DE491A2CC274006688E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ioschatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ioschat.app/ioschat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D059DE1C1A2CC274006688E0 /* Build configuration list for PBXProject "ioschat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D059DE421A2CC274006688E0 /* Debug */,
+				D059DE431A2CC274006688E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D059DE441A2CC274006688E0 /* Build configuration list for PBXNativeTarget "ioschat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D059DE451A2CC274006688E0 /* Debug */,
+				D059DE461A2CC274006688E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D059DE471A2CC274006688E0 /* Build configuration list for PBXNativeTarget "ioschatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D059DE481A2CC274006688E0 /* Debug */,
+				D059DE491A2CC274006688E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D059DE191A2CC274006688E0 /* Project object */;
+}
