@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03BAA311A2E1E3700206609 /* WCChatSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D03BAA301A2E1E3700206609 /* WCChatSelectionView.m */; };
 		D059DE271A2CC274006688E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE261A2CC274006688E0 /* main.m */; };
 		D059DE2A1A2CC274006688E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE291A2CC274006688E0 /* AppDelegate.m */; };
 		D059DE2D1A2CC274006688E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE2C1A2CC274006688E0 /* ViewController.m */; };
@@ -18,12 +19,6 @@
 		D059DE531A2CC2DA006688E0 /* WCRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D059DE4E1A2CC2DA006688E0 /* WCRegisterViewController.xib */; };
 		D059DE541A2CC2DA006688E0 /* WCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE501A2CC2DA006688E0 /* WCLoginViewController.m */; };
 		D059DE551A2CC2DA006688E0 /* WCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D059DE511A2CC2DA006688E0 /* WCLoginViewController.xib */; };
-		D059DE601A2CC393006688E0 /* WCFindFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE581A2CC393006688E0 /* WCFindFriendsViewController.m */; };
-		D059DE611A2CC393006688E0 /* WCFindFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D059DE591A2CC393006688E0 /* WCFindFriendsViewController.xib */; };
-		D059DE621A2CC393006688E0 /* WCContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE5B1A2CC393006688E0 /* WCContactsViewController.m */; };
-		D059DE631A2CC393006688E0 /* WCContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D059DE5C1A2CC393006688E0 /* WCContactsViewController.xib */; };
-		D059DE641A2CC393006688E0 /* WCUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D059DE5E1A2CC393006688E0 /* WCUserProfileViewController.m */; };
-		D059DE651A2CC393006688E0 /* WCUserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D059DE5F1A2CC393006688E0 /* WCUserProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D03BAA2F1A2E1E3700206609 /* WCChatSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCChatSelectionView.h; sourceTree = "<group>"; };
+		D03BAA301A2E1E3700206609 /* WCChatSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCChatSelectionView.m; sourceTree = "<group>"; };
 		D059DE211A2CC274006688E0 /* ioschat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ioschat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D059DE251A2CC274006688E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D059DE261A2CC274006688E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,15 +53,6 @@
 		D059DE4F1A2CC2DA006688E0 /* WCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLoginViewController.h; sourceTree = "<group>"; };
 		D059DE501A2CC2DA006688E0 /* WCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLoginViewController.m; sourceTree = "<group>"; };
 		D059DE511A2CC2DA006688E0 /* WCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCLoginViewController.xib; sourceTree = "<group>"; };
-		D059DE571A2CC393006688E0 /* WCFindFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCFindFriendsViewController.h; sourceTree = "<group>"; };
-		D059DE581A2CC393006688E0 /* WCFindFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCFindFriendsViewController.m; sourceTree = "<group>"; };
-		D059DE591A2CC393006688E0 /* WCFindFriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCFindFriendsViewController.xib; sourceTree = "<group>"; };
-		D059DE5A1A2CC393006688E0 /* WCContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCContactsViewController.h; sourceTree = "<group>"; };
-		D059DE5B1A2CC393006688E0 /* WCContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCContactsViewController.m; sourceTree = "<group>"; };
-		D059DE5C1A2CC393006688E0 /* WCContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCContactsViewController.xib; sourceTree = "<group>"; };
-		D059DE5D1A2CC393006688E0 /* WCUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCUserProfileViewController.h; sourceTree = "<group>"; };
-		D059DE5E1A2CC393006688E0 /* WCUserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCUserProfileViewController.m; sourceTree = "<group>"; };
-		D059DE5F1A2CC393006688E0 /* WCUserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCUserProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D03BAA2E1A2E1E2300206609 /* AddtionViews */ = {
+			isa = PBXGroup;
+			children = (
+				D03BAA2F1A2E1E3700206609 /* WCChatSelectionView.h */,
+				D03BAA301A2E1E3700206609 /* WCChatSelectionView.m */,
+			);
+			name = AddtionViews;
+			sourceTree = "<group>";
+		};
 		D059DE181A2CC274006688E0 = {
 			isa = PBXGroup;
 			children = (
@@ -106,7 +103,7 @@
 		D059DE231A2CC274006688E0 /* ioschat */ = {
 			isa = PBXGroup;
 			children = (
-				D059DE561A2CC379006688E0 /* frends */,
+				D03BAA2E1A2E1E2300206609 /* AddtionViews */,
 				D059DE4B1A2CC2C0006688E0 /* login_reg */,
 				D059DE281A2CC274006688E0 /* AppDelegate.h */,
 				D059DE291A2CC274006688E0 /* AppDelegate.m */,
@@ -157,22 +154,6 @@
 				D059DE511A2CC2DA006688E0 /* WCLoginViewController.xib */,
 			);
 			name = login_reg;
-			sourceTree = "<group>";
-		};
-		D059DE561A2CC379006688E0 /* frends */ = {
-			isa = PBXGroup;
-			children = (
-				D059DE571A2CC393006688E0 /* WCFindFriendsViewController.h */,
-				D059DE581A2CC393006688E0 /* WCFindFriendsViewController.m */,
-				D059DE591A2CC393006688E0 /* WCFindFriendsViewController.xib */,
-				D059DE5A1A2CC393006688E0 /* WCContactsViewController.h */,
-				D059DE5B1A2CC393006688E0 /* WCContactsViewController.m */,
-				D059DE5C1A2CC393006688E0 /* WCContactsViewController.xib */,
-				D059DE5D1A2CC393006688E0 /* WCUserProfileViewController.h */,
-				D059DE5E1A2CC393006688E0 /* WCUserProfileViewController.m */,
-				D059DE5F1A2CC393006688E0 /* WCUserProfileViewController.xib */,
-			);
-			name = frends;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,11 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D059DE301A2CC274006688E0 /* Main.storyboard in Resources */,
-				D059DE651A2CC393006688E0 /* WCUserProfileViewController.xib in Resources */,
 				D059DE551A2CC2DA006688E0 /* WCLoginViewController.xib in Resources */,
 				D059DE351A2CC274006688E0 /* LaunchScreen.xib in Resources */,
-				D059DE611A2CC393006688E0 /* WCFindFriendsViewController.xib in Resources */,
-				D059DE631A2CC393006688E0 /* WCContactsViewController.xib in Resources */,
 				D059DE321A2CC274006688E0 /* Images.xcassets in Resources */,
 				D059DE531A2CC2DA006688E0 /* WCRegisterViewController.xib in Resources */,
 			);
@@ -281,13 +259,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D059DE2D1A2CC274006688E0 /* ViewController.m in Sources */,
-				D059DE641A2CC393006688E0 /* WCUserProfileViewController.m in Sources */,
 				D059DE2A1A2CC274006688E0 /* AppDelegate.m in Sources */,
 				D059DE271A2CC274006688E0 /* main.m in Sources */,
-				D059DE601A2CC393006688E0 /* WCFindFriendsViewController.m in Sources */,
+				D03BAA311A2E1E3700206609 /* WCChatSelectionView.m in Sources */,
 				D059DE521A2CC2DA006688E0 /* WCRegisterViewController.m in Sources */,
 				D059DE541A2CC2DA006688E0 /* WCLoginViewController.m in Sources */,
-				D059DE621A2CC393006688E0 /* WCContactsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +454,7 @@
 				D059DE461A2CC274006688E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D059DE471A2CC274006688E0 /* Build configuration list for PBXNativeTarget "ioschatTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +463,7 @@
 				D059DE491A2CC274006688E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
